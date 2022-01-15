@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mali:ital,wght@1,300;1,400;1,500;1,600&display=swap');
+body{
+    background-image: url("images/itl.cat_cute-starbucks-wallpapers_363209.png");
+    background-size: cover;
+    font-family: 'Mali', cursive;
+    padding: 0;
+    margin: 1rem 4rem;
+    box-sizing: border-box;
+    
+}
+
+.game-area{
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+}
+
+.grid{
+    background-color: rgba(47, 124, 168, 0.432);
+    height: 560px; 
+    width: 560px;
+    display: flex;
+    flex-wrap: wrap;
+    border-radius: 1.5rem;
+    backdrop-filter: blur(8px);
+    padding: 1rem;
+}
+
+.grid div{
+    height: 70px;
+    width: 70px;
+    border-radius: 8px;
+    box-shadow: 0 10px 20px rgba(255, 255, 255, 0.1), 0 6px 6px rgba(255, 255, 255, 0.1);
+}
+
+.score-board-container{
+    background-color: #3cfbfb9d;
+    margin-top: 6rem;
+    padding: 1.4rem;
+    border-radius: 1rem;
+    backdrop-filter: blur(10px);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}
+
+
+.score-board{
+    background-color: #fb8dfd;
+    color: #3cfafb;
+    border-radius: 1rem;
+    padding: 1rem 7rem;
+    text-align: center;
+    border: 4px solid #c223b4; 
+}
+
+.score-board:hover{
+    box-shadow: 0 5px 10px rgba(0,0,0,0.1), 0 3px 3px rgba(0,0,0,0.1);
+}
+
+
+
+
+h3{
+    font-size: 2rem;
+    color: rgb(106, 51, 209);
+    margin: 0;
+}
+h1{
+    font-size: 3rem;
+    margin: 5px;
+}
+
+.reset{
+    background-color: #c223b4;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    padding: 10px 26px;
+    cursor: pointer;
+    box-shadow: 0 0 10px #e66adb;
+    font-family: 'Mali', cursive;
+    
+}
+
+.reset:hover{
+    background-color: #d844cc;
+    box-shadow: 1px 1px 10px #cd8cce;
+}
