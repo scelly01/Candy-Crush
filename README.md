@@ -1,5 +1,5 @@
 # Candy-Crush
-Candy Crush game using vanilla Javascript, CSS ,ad HTML
+Candy Crush game using vanilla Javascript, CSS and HTML
 
 Link to the game: 
 
